@@ -52,7 +52,7 @@ subroutine simulation(root_dirname, dirname)
   !1-7 extarnal condition
   double precision , parameter :: wall_x = 11.0d0 !m wall_x
   double precision , parameter :: wall_y = 11.0d0 !m wall_y
-  double precision , parameter :: wall_z = 3.05d0 !m wall_z
+  double precision , parameter :: wall_z = 2.05d0 !m wall_z
   double precision , parameter :: temp = 3.0d2 !K temperature
   double precision , parameter :: eta = 0.0d0!8.9d-4 !Pa*s (kg*m^-1*s^-1) viscosity nendo
   double precision , parameter :: rho = 1.0d1!1.0d-1!9.97d2 !kg*m^-3 density mitudo
